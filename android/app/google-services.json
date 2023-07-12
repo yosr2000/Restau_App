@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "170382744315",
+    "project_id": "cafe-resto-c3cbd",
+    "storage_bucket": "cafe-resto-c3cbd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170382744315:android:8799ac926a615b05f8ae5e",
+        "android_client_info": {
+          "package_name": "com.example.cafe_restaut"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "170382744315-opnpdp0i63cs3885v6mmp4pgpjb3ue91.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiONIfrqgQYTHCh8ft8jWDx6Gereo471w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "170382744315-opnpdp0i63cs3885v6mmp4pgpjb3ue91.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "170382744315-77m0ofgs4pmthi0c02au8i41uv3v6nln.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.cafeRestaut.RunnerTests"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
