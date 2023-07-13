@@ -1,7 +1,35 @@
 import 'package:flutter/material.dart';
 
 class CoffeePage extends StatelessWidget {
-  const CoffeePage({Key? key}) : super(key: key);
+  var data = [
+    {
+      'name': 'cofee',
+      'children': [
+        {
+          'name': 'cofee chaud',
+          'children': [
+            {
+              'name': 'cappucino',
+              'price':45
+            },
+            {'name': 'cappucino2',
+              'children':[
+                {
+                  'name': 'cappucino aa',
+                  'price':450
+                },
+                {
+                  'name': 'cappucino bb',
+                  'price':458
+                },
+              ]}
+          ]
+        },
+        {}
+      ]
+    }
+  ];
+
 
   @override
   Widget build(BuildContext context) {

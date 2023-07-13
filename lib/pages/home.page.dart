@@ -1,6 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
+import '../menu/drawer.widget.dart';
 import 'CoffeeScreen.page.dart';
 
 class HomePage extends StatelessWidget {
@@ -47,7 +48,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     final user = FirebaseAuth.instance.currentUser;
     return Scaffold(
-      drawer: Drawer(),
+      drawer: MyDrawer(),
       appBar: AppBar(
         title: Text('Menu'),
         centerTitle: true,

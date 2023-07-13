@@ -6,34 +6,34 @@ import 'package:lottie/lottie.dart';
 import 'authentification.page.dart';
 import 'inscription.page.dart';
 
-var data = [
-  {
-    'name': 'cofee',
-    'children': [
-      {
-        'name': 'cofee chaud',
-        'children': [
-          {
-            'name': 'cappucino',
-            'price':45
-          },
-          {'name': 'cappucino2',
-          'children':[
-            {
-              'name': 'cappucino aa',
-              'price':450
-            },
-            {
-              'name': 'cappucino bb',
-              'price':458
-            },
-          ]}
-        ]
-      },
-      {}
-    ]
-  }
-];
+// var data = [
+//   {
+//     'name': 'cofee',
+//     'children': [
+//       {
+//         'name': 'cofee chaud',
+//         'children': [
+//           {
+//             'name': 'cappucino',
+//             'price':45
+//           },
+//           {'name': 'cappucino2',
+//           'children':[
+//             {
+//               'name': 'cappucino aa',
+//               'price':450
+//             },
+//             {
+//               'name': 'cappucino bb',
+//               'price':458
+//             },
+//           ]}
+//         ]
+//       },
+//       {}
+//     ]
+//   }
+// ];
 
 class OnboardingScreen extends StatefulWidget {
   const OnboardingScreen({Key? key}) : super(key: key);

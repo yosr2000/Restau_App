@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:lottie/lottie.dart';
 
-import '../component/textfield.dart';
 import 'inscription.page.dart';
 
 class AuthentificationPage extends StatefulWidget {
